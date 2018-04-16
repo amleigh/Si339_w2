@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Amanda McLeod</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+
+		$(document).ready(function(){
+			$('#hide').click(function(){
+				$('#p1').hide();
+			})
+		});
+
+		$(document).ready(function(){
+			$('#show').click(function(){
+				$('#p1').toggle();
+			})
+		});
+
+		
+	</script>
+	
+</head>
+<body>
+	<h1>Amanda McLeod</h1>
+	<div class = 'set'>
+		<div id = 'p1' class ='a photo1'>
+			<img src="images/examPic.JPG" alt = 'exam pic'>
+		</div>
+		
+		<div id = 'p2' class ='a photo2'>
+			<img src="images/UMSI-logo.jpg" alt = 'UMSI logo'>
+		</div> 
+	</div>	
+	<br>
+
+	<button id="hide"> Hide Image</button>
+	<button id = 'show'>Show Image</button>
+
+</body>
+</html>	
